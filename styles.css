@@ -1,0 +1,104 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to right, #fceabb, #f8b500);
+  color: #333;
+}
+
+header {
+  text-align: center;
+  background-color: #ff6f61;
+  color: white;
+  padding: 2rem 1rem;
+}
+
+.profile-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  margin-bottom: 1rem;
+}
+
+main {
+  padding: 2rem;
+}
+
+.about, .skills {
+  background-color: white;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.skills ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.btn-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.btn {
+  background-color: #ff6f61;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #e0554f;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+.socials a {
+  margin: 0 10px;
+  color: #ffd;
+  text-decoration: none;
+}
+
+form {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+form label {
+  display: block;
+  margin-top: 1rem;
+}
+
+form input, form textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.25rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  margin-top: 1rem;
+  padding: 0.75rem;
+  background-color: #ff6f61;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
